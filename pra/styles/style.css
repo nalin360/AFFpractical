@@ -1,0 +1,51 @@
+#hero {
+    background-image: linear-gradient(to right top, #2e9ccb, #1693cb, #0089cb, #007eca, #1473c7, #0e77c9, #067bcc, #007fce, #0091d1, #00a1cb, #00afbf, #17bbb0);
+}
+
+#about {
+    background-image: linear-gradient(to right top, #9fb5d6, #79c9e2, #6bdacf, #9ce4a3, #e7e27e);
+}
+
+#wel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#welcome {
+    /* height: 10vh; */
+    /* font-family: "Oswald", sans-serif; */
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    /* background-color: #ffffff; */
+    border-radius: 5px;
+    border: none;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#welcome > h1 {
+    cursor: pointer;
+    font-size: 6rem;
+}
+#welcome > h1:hover {
+    color: linear-gradient(to right top, #d87582, #e46387, #eb4d93, #ee34a5, #eb12bc);
+ 
+}
+
+
+#box {
+    width: 40px;
+    height: 40px;
+    /* padding: 10px;
+    margin: 10px; */
+    background-color: #79c9e2;
+}
+
+#myflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
