@@ -50,4 +50,84 @@ width: 15%;
 height: 35%;
 }
 
-/*  */
+/*  feature*/
+
+#feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#feature-hero :first-child > h1{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#feature-hero .col > svg {
+    /* color: aqua; */
+    margin-bottom: 30px;
+    height: 70px;
+}
+
+.row {
+   
+    margin: 20px;
+}
+.col  {
+    text-align: center;
+}
+#feature-hero .col > p {
+    /* font-weight: 700; */
+    
+}
+
+.mycolor{
+    fill: aqua;
+}
+
+/* --pricing tables */
+
+#pricetables{
+    text-align: center;
+}
+table {
+    table-layout: fixed;
+    width: 140vh;
+    text-align: center;
+}
+
+
+tbody > tr {
+    width: 20px;
+    height: 50px;
+    border-top: 1px solid rgb(146, 171, 185);
+    /* padding: 60px; */
+}
+thead > tr > th {
+    
+}
+thead > tr > th > button {
+    text-decoration: none;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border: 2px solid #006eff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: ease-in;
+    /* width: 0%; */
+}
+thead > tr > th > button:hover{
+    background-color: #006eff;
+    color: #ffffff;
+
+}
+
+#table-btn-focus:focus{
+    background-color: #006eff;
+
+}
+thead > tr > th:nth-child(3) > button:focus {
+    background-color: #006eff;
+}
