@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function showAlertHead(params) {
+            alert('this script tag inside head')
+        }
+    </script>
+    <style>
+        button {
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            border: none;
+            padding: 10px;
+            margin: 10px;
+            color: aliceblue;
+            background-color: #0066ff;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: ease-in;
+        }
+        button:hover {
+            padding: 15px;
+            background-color: #5bbae6;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div>
+            <button onclick="showAlert()">Click for external script</button>
+        </div>
+        <div>
+            <button onclick="showAlertBody()">Click script in the body</button>
+        </div>
+        <div>
+            <button onclick="showAlertHead()">Click script in the head</button>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+    <script>
+        function showAlertBody(params) {
+            alert('this script tag inside body')
+        }
+    </script>
+</body>
+
+</html>
